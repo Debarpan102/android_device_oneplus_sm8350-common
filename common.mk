@@ -31,6 +31,12 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
