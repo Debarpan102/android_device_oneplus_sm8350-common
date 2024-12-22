@@ -423,6 +423,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml
 
+# Inherit oplus-fwk jars (fixes IMS also)
+$(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
 
 # Thermal
 PRODUCT_PACKAGES += \
