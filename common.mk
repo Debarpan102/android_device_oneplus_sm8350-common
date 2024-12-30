@@ -464,6 +464,9 @@ PRODUCT_COPY_FILES += \
 # VNDK
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v30/arm/arch-arm-armv7-a-neon/shared/vndk-core/libui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libui-v30.so
+    
+# return to stock ims (fixes ims)
+$(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
 
 # WiFi
 PRODUCT_PACKAGES += \
