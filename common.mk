@@ -111,8 +111,6 @@ TARGET_ENABLE_BLUR := true
 # Camera
 #$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
-# ViPER4AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
 PRODUCT_PACKAGES += \
     android.frameworks.stats@1.0.vendor \
