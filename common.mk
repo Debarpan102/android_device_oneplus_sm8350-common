@@ -379,6 +379,9 @@ PRODUCT_COPY_FILES += \
 # Inherit Basic Call Recorder (BCR)
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
+# Inherit Oplus Camera (OplusCam)
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
