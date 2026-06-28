@@ -190,7 +190,7 @@ PRODUCT_PACKAGES += \
     init.kernel.post_boot-lahaina.sh \
     init.kernel.post_boot-yupik.sh \
     init.oplus.hw.rc \
-    init.oplus.hw.rc.recovery \
+    init.oplus.hw.recovery.rc \
     init.oplus.rc \
     init.oplus.sh \
     init.qcom.early_boot.sh \
